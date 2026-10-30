@@ -1,0 +1,25 @@
+cat > .gitignore <<'EOF'
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Frontend
+node_modules/
+dist/
+
+# Uploaded datasets
+storage/uploads/*
+storage/processed/*
+
+# Database
+*.db
+
+# OS
+.DS_Store
+EOF
